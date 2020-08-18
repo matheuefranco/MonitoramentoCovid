@@ -22,6 +22,9 @@ export default function App() {
         <h1>Lista de Casos Covid</h1>
         <table className="table">
           <tbody>
+            <th>Estado </th>
+            <th>Casos </th>
+            <th>Mortes </th>
             {casos.map(function (item, index) {
               return (
                 <tr key={index}>
